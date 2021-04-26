@@ -94,7 +94,7 @@ def print_board(board, elapsedTime):
     
     
 def generate():
-    """return  [
+    return  [
         [3, 0, 6, 5, 0, 8, 4, 0, 0],
         [5, 2, 0, 0, 0, 0, 0, 0, 0],
         [0, 8, 7, 0, 0, 0, 0, 3, 1],
@@ -104,7 +104,8 @@ def generate():
         [1, 3, 0, 0, 0, 0, 2, 5, 0],
         [0, 0, 0, 0, 0, 0, 0, 7, 4],
         [0, 0, 5, 2, 0, 6, 3, 0, 0]
-    ]"""
+    ]
+    """
     return  [
         [0, 0, 5, 3, 6, 0, 4, 8, 0],
         [0, 4, 0, 9, 0, 0, 0, 0, 0],
@@ -115,7 +116,7 @@ def generate():
         [6, 0, 0, 0, 0, 0, 0, 0, 4],
         [0, 0, 8, 0, 4, 9, 0, 0, 0],
         [3, 0, 0, 8, 5, 0, 0, 0, 6]
-    ]
+    ]"""
 
 class Board:
     '''A sudoku board made out of Tiles'''
@@ -233,8 +234,8 @@ def solveItWithGUI():
     solveSudokuGUI(board, wrong)
 
 if __name__ == '__main__':
-    #solveIt()
-    solveItWithGUI()
+    solveIt()
+    #solveItWithGUI()
     
     
     
